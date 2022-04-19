@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: #998da0;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.items li {
+    border-radius: 10px;
+    margin: 6px;
+    font-size: 18px;
+}
+
+.items a {
+    text-decoration: none;
+    color: #C4E7D4;
+}
+
+div img {
+    width: 70px;
+    padding-left: 20px;
+}
